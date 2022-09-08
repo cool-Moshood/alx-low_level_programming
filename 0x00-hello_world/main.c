@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	printf("ALX School");
 	return (0);
 }
