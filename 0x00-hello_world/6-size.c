@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * sizeof of varoius types
+ *
  * Return: Always 0 (Success)
  */
 int main(void)
