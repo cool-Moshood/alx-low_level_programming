@@ -5,6 +5,8 @@
  /**
  *main - Entry point
  *
+ * Description: 'the program run radom number'
+ *
  * Return - Always 0 (success)
  */
 int main(void)
