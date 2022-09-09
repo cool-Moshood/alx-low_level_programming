@@ -3,7 +3,7 @@
 #include<time.h>
 
  /**
- *main - random
+ *main - this is the starting point of the project
  *RAND_MAX - Random number
  * Return - value zero
  */
