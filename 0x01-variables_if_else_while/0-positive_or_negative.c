@@ -3,9 +3,9 @@
 #include<time.h>
 
  /**
- *main - this is the starting point of the project
- *RAND_MAX - Random number
- * Return - value zero
+ *main - Entry point
+ *
+ * Return - Always 0 (success)
  */
 int main(void)
 {
