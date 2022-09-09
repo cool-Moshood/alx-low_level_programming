@@ -2,12 +2,12 @@
 #include<stdlib.h>
 #include<time.h>
 
- /**
- * main - Entry point
+/**
+ *main - Entry point
  *
- * Description: 'the program run radom number'
+ *Description: 'the program run radom number'
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
