@@ -20,11 +20,13 @@ int main(void)
 
 	{
 
-	    x = tolower(x);
+		x = tolower(x);
 
-	    putchar(x);
-	    x++;
+		putchar(x);
+		x++;
 	}
+
+
 
 	x = 'A';
 
@@ -32,13 +34,13 @@ int main(void)
 
 	{
 
-	x = toupper(x);
+		x = toupper(x);
 
-	putchar(x);
-	x++;
+		putchar(x);
+		x++;
 	}
 	{
-	    putchar('\n');
+		putchar('\n');
 	}
-return (0);
+	return (0);
 }
