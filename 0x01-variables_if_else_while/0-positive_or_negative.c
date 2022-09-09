@@ -3,7 +3,7 @@
 #include<time.h>
 
  /**
- *main - Entry point
+ * main - Entry point
  *
  * Description: 'the program run radom number'
  *
