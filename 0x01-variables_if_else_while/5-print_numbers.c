@@ -15,7 +15,7 @@ int main(void)
 	for (x = 0; x <= 9; x++)
 
 
-		printf("%u\n", x);
+		printf("%u", x);
 
 
 	printf("\n");
