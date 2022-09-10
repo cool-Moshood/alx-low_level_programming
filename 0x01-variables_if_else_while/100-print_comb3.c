@@ -1,13 +1,11 @@
 #include <stdio.h>
 
 /**
- *main - entry point
+ *main - Entry point
  *
- *Run two digit
+ *Description: 'two digit in acsending order'
  *
- *in ascending order
- *
- *return: always  return 0 success
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
