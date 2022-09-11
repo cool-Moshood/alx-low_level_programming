@@ -1,41 +1,42 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - Run three different combination.
+ *main - Entry point
  *
- * Return: Always 0 (Success)
+ *Description: 'using putchar to run 3 digit'
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, p, q;
 
-	i = 48;
-	p = 48;
-	q = 48;
+	int x = 48, y = 49, z = 50;
 
-	while (p < 58)
+	while (x <= 55)
 	{
-		i = 48;
-		while (i < 58)
+		while (y <= 56)
 		{
-			q = 48;
-			while (q < 58)
+			while (z <= 57)
 			{
-				if (p != i && p != q && i != q && p < i && i < q)
-				{
-					putchar(p);
-					putchar(i);
-					putchar(q);
-					if (!(i == 56 && p == 55 && q == 57))
+				putchar(x);
+				putchar(y);
+				putchar(z);
 
-						putchar(',');
+				if (x <= 54 && y <= 56 && z <= 57)
+				{
+					putchar(',');
 					putchar(' ');
 				}
-				q++;
+				z++;
 			}
-			i++;
+			y++;
+
+			z = y + 1;
 		}
-		p++;
+		x++;
+
+		y = x;
 	}
 	putchar('\n');
 	return (0);
