@@ -33,9 +33,10 @@ int main(void)
 						putchar(' ');
 						putchar(z);
 						putchar(p);
-			if (x <= 57 && y <= 56 && z <= 57 && p <= 57)
-			putchar(',');
-			putchar(' ');
+				if (x == 57 && y == 56 && z == 57 && p == 57)
+					break;
+				putchar(',');
+				putchar(' ');
 					}
 					p++;
 				}
