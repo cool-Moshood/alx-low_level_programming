@@ -4,7 +4,7 @@
  * main - prints the first 50 Fibonacci numbers
  *
  * Return: Always 0 (Success)
- */#
+ */
 
 int main(void)
 
@@ -14,15 +14,16 @@ int main(void)
 	long int nt = 3;
 
 	printf(" %ld, %ld, ", t1, t2);
+	int x;
 
-	for (int x = 3; x < 50; x++)
+	for (x = 3; x < 50; x++)
+
 	{
 
 		printf("%ld, ",  nt);
 		t1 = t2;
 		t2 = nt;
 		nt = t1 + t2;
-
 	}
 	printf("%ld\n", nt);
 	return (0);
