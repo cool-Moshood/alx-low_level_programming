@@ -19,7 +19,7 @@ void jack_bauer(void)
 	{
 		int j = 0;
 
-		for ( j = 0; j < 60; j++)
+		for (j = 0; j < 60; j++)
 		{
 
 			int hr = i / 10;
