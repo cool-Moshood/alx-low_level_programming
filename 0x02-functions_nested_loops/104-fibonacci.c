@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 89 Fibonacci numbers
+ * main - prints the first 98 Fibonacci numbers
  *
  * Return: Always 0 (Success)
- */#
+ */
 
 int main(void)
 
