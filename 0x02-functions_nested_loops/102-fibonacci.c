@@ -14,7 +14,7 @@ int main(void)
 	long int x;
 	long int nt = 3;
 
-	printf(" %ld, %ld, ", t1, t2);
+	printf("%ld, %ld, ", t1, t2);
 
 	for (x = 3; x < 50; x++)
 
