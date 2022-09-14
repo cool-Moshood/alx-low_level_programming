@@ -11,10 +11,10 @@ int main(void)
 {
 	long int t1 = 1;
 	long int t2 = 2;
+	long int x;
 	long int nt = 3;
 
 	printf(" %ld, %ld, ", t1, t2);
-	long int x;
 
 	for (x = 3; x < 50; x++)
 
