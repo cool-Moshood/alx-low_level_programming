@@ -10,7 +10,7 @@ void print_numbers(void)
 
 {
 
-	int x = 48;
+	char x = 48;
 
 	while (x <= 57)
 	{
