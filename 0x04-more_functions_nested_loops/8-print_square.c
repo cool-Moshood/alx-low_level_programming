@@ -3,21 +3,27 @@
 /**
  * print_square -function size of square
  *
+ * @n: number
+ *
  * Return: Always 0.
  */
-void print_square(int size)
+void print_square(int n)
 {
-	int width, height;
 
-	if (size <= 0)
-		_putchar('\n');
-	else
+	int x;
+
+	int y;
+
+	for (y = 0; y < n; y++)
 	{
-		for (height = 0; height < size; height++)
+		for (x = 0; x < n; x++)
 		{
-			for (width = 0; width < size; width++)
-				_putchar('#');
-			_putchar('\n');
+			_putchar('#');
 		}
+		_putchar('\n');
+	}
+	if (n <= 2)
+	{
+		_putchar('\n');
 	}
 }
