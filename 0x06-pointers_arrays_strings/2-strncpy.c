@@ -2,7 +2,7 @@
 
 /**
  * _strncpy - function that copies a string.
- * 
+ *
  * @dest: string
  * @src: string.
  * @n:number of bytes
@@ -11,7 +11,7 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-    
+
 	int x = 0, src_y = 0;
 
 	while (src[x++])
