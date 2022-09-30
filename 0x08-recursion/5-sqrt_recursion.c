@@ -4,6 +4,7 @@
  *
  *@n:num to square root
  *@x:int mult test
+ *Return: always 0
  */
 int test_sqrt(int n, int x)
 {
@@ -24,6 +25,7 @@ int test_sqrt(int n, int x)
  *_sqrt_recursion - function that returns the
  * natural square root of a number
  *@n: square root num
+ *Return: always 0
  */
 int _sqrt_recursion(int n)
 {
