@@ -11,10 +11,10 @@
  *
  * Return:  NULL or duplicated string.
  */
-
 char *_strdup(char *str)
 {
 	char *dup_str;
+
 	int x = 0, y = 0, z = 0;
 
 	if (str == NULL)
@@ -28,11 +28,10 @@ char *_strdup(char *str)
 	if (dup_str == NULL)
 		return (NULL);
 
-	while (z < str[z])
+	while (z < y)
 	{
 		dup_str[z] = str[z];
 		z++;
 	}
-
 	return (dup_str);
 }
