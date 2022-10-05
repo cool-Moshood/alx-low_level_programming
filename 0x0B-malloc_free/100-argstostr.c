@@ -9,7 +9,7 @@
  * @ac: arguments
  * @av: arguments
  *
- * Return:
+ * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
