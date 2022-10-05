@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 /**
  * main - a program that prints its name
@@ -12,23 +14,26 @@
 
 int main(int argc, char *argv[])
 {
-        int i, sum;
-        sum = 0;
 
-         for (i = 1; i < argc; i++)
+	int i, j, sum;
 
-        if (!(atoi(argv[i]) >= 122 && atoi(argv[i]) <= 65))
-        {
-                        sum += atoi(argv[i]);
+	sum = 0;
 
-                printf("%d\n", sum);
-        }
-        else
-        {
-                printf("Error\n");
-                return (1);
-        }
-
-        return (0);
-
+	for (i = 1; i < argc; i++)
+	{
+		for (j = 0; argv[i][j]; j++)
+		{
+			if (isdigit(argv[i][j]) == 0)
+			{
+				puts("Error");
+				return (1);
+			}
+		}
+	}
+	for (i = 1; i < argc; i++)
+	{
+		sum += atoi(argv[i]);
+	}
+	printf("%d\n", sum);
+	return (0);
 }
