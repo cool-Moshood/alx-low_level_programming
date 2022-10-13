@@ -3,13 +3,14 @@
 
 /**
  * sum_them_all -function that returns the sum o
- *  all its parameters
+ * all its parameters
  * @n: integer
  * Return: sum or 0.
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	unsigned int i, sum_total;
+	unsigned int i = 0, sum_total;
+
 	va_list ap;
 
 	if (n == 0)
