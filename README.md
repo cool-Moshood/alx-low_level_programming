@@ -1,1 +1,1 @@
-first project on c programming
+project and task on c programming
