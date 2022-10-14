@@ -1,31 +1,40 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 98 Fibonacci numbers
+ * main - print fibonacci
  *
- * Return: Always 0 (Success)
+ * Return: always 0
  */
-
 int main(void)
-
 {
-	long double t1 = 1;
-	long  double t2 = 2;
-	long  double nth = t1 + t2;
-	int x;
+	unsigned long int a, a1, a2, b, b1, b2, c, c1, c2, d, e;
+	a = 1;
+	b = 2;
+	c = a + b;
 
-	printf("%.0Lf, %.0Lf, ", t1, t2);
-
-	for (x = 3; x < 98; x++)
+	printf("%lu, ", a);
+	printf("%lu, ", b);
+	for (d = 3; d < 89; d++)
 	{
-
-		printf("%.0Lf, ",  nth);
-		t1 = t2;
-		t2 = nth;
-		nth = t1 + t2;
-
+		printf("%lu, ", c);
+		a = b;
+		b = c;
+		c = a + b;
 	}
-	printf("%.0Lf\n", nth);
+	b1 = b / 1000000000;
+	b2 = b % 1000000000;
+	c1 = c / 1000000000;
+	c2 = c % 1000000000;
+	for (e = 89; e < 98; e++)
+	{
+		printf("%lu%lu, ", c1, c2);
+		a1 = b1;
+		a2 = b2;
+		b1 = c1;
+		b2 = c2;
+		c1 = a1 + b1 + ((a2 + b2) / 1000000000);
+		c2 = (a2 + b2) % 1000000000;
+	}
+	printf("%lu%lu\n", c1, c2);
 	return (0);
-
 }
