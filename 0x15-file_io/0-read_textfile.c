@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (filename == NULL)
 		return (0);
 
-	ptr = open("Requiescat", O_RDONLY);
+	ptr = open(filename, O_RDONLY);
 
 	if (ptr == -1)
 	{
