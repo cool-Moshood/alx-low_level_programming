@@ -5,7 +5,7 @@
  * @head: head 
  * @n: tail end
  *
- * Return: newnode
+ * Return: new_node
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
