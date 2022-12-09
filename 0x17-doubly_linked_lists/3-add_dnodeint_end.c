@@ -2,7 +2,7 @@
 
 /**
  * add_dnodeint_end - add node at end of doubly linked list
- * @head: head 
+ * @head: head
  * @n: tail end
  *
  * Return: new_node
