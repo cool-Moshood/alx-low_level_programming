@@ -118,7 +118,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	shash_node_t *sh_node, *temp_var;
 
 	if (ht == NULL || ht->array == NULL || ht->size == 0 ||
-		key == NULL || strlen(key) == 0 || value == NULL)
+			key == NULL || strlen(key) == 0 || value == NULL)
 		return (0);
 	index = key_index((const unsigned char *)key, ht->size);
 	temp_var = ht->array[index];
@@ -157,7 +157,7 @@ char *shash_table_get(const shash_table_t *ht, const char *key)
 	shash_node_t *temp_var;
 
 	if (ht == NULL || ht->array == NULL || ht->size == 0 ||
-		key == NULL || strlen(key) == 0)
+			key == NULL || strlen(key) == 0)
 		return (NULL);
 	index = key_index((const unsigned char *)key, ht->size);
 	temp_var = ht->array[index];
