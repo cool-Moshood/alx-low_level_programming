@@ -5,11 +5,11 @@
 
 /**
  * hash_table_set - adding element to the hash table
- * @ht: element adding
+ * @ht: pointer to the hash table
  * @key: the key element
- *
+ * @value: the value associated with the key
  * Return: 1 is return if success or 0 for failure
-*/
+ */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
