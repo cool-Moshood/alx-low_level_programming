@@ -9,5 +9,5 @@ all: $(OBJ)
 #$(BINARY): $(OBJ)
 
 %.o:%.c
-	$(CC) -c -o $@ $^
+	$(CC)	 -c -o $@ $^
 
