@@ -2,7 +2,7 @@ CC=gcc
 SRC=main.c school.c
 OBJ=$(patsubst %.c,%.o,$(SRC))
 NAME=school
-RM=
+RM= rm -f
 
 all:$(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
@@ -11,11 +11,12 @@ all:$(OBJ)
 	$(CC)	 -c -o $@ $^
 
 clean:
-	rm -f *~ $(NAME)
+	$(RM) *~ $(NAME)
 
 oclean:
-	rm -f $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean oclean
 
 re: clean all
+
