@@ -1,10 +1,17 @@
 #!/usr/bin/python3
 """ define the perimeter of the island described in grid
- where the grid represents water by 0 and land by 1.
 """
 
 
 def island_perimeter(grid):
+    """ return the perimeter of the island describe
+        where the grid represents water by 0 and land by 1.
+
+        Args:
+            grid(list): list of an intger
+        Returns:
+            the perimeter of the island
+    """
 
     lenght = 0
     wdth = 0
